@@ -15,7 +15,6 @@ export default new Vuex.Store({
   },
   mutations: {
     setBeer(state, data) {
-      console.log(data)
       state.beer = data
     },
 
